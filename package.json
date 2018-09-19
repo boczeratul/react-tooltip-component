@@ -1,5 +1,5 @@
 {
-  "name": "react-tooltip-component",
+  "name": "react-tooltip-component-16",
   "version": "0.3.0",
   "description": "React tooltip component.",
   "main": "lib/index.js",
@@ -17,10 +17,12 @@
     "tooltip"
   ],
   "peerDependencies": {
-    "react": "^0.14 || ^15.0.0",
-    "react-dom": "^0.14 || ^15.0.0"
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react": "^16.5.2"
+  },
   "devDependencies": {
     "autoprefixer": "^6.3.1",
     "babel": "^5.8.34",
@@ -55,8 +57,9 @@
     "node-sass": "^3.4.2",
     "opn": "^4.0.0",
     "postcss-loader": "^0.8.0",
-    "react-dom": "^0.14 || ^15.0.0",
-    "react-router": "^2.0.0",
+    "prop-types": "^15.6.1",
+    "react-dom": "^16.5.2",
+    "react-router": "^4.0.0",
     "react-transform-hmr": "^1.0.1",
     "run-sequence": "^1.1.5",
     "sass-loader": "^3.1.2",

@@ -1,6 +1,6 @@
 import React from 'react';
 import Document from 'components/common/Document';
-import Tooltip from 'react-tooltip-component';
+import Tooltip from 'react-tooltip-component-16';
 
 class HomePage extends React.Component {
   render() {
